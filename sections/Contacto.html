@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Cenneca Aviación</title>
+</head>
+<link href="../img/logo.jpg" type="image/x-icon" rel="Icono navegador">
+<body>
+    <header>
+        <nav class="grid-index">
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./Modelos.html">Modelos</a>
+                </li>
+                <li>
+                    <a href="./Motorizaciones.html">Motorizaciones</a>
+                </li>
+                <li>
+                    <a href="./Escuela.html">escuela</a>
+                </li>
+                <li>
+                    <a href="./Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Cenneca Aviacion</h1>
+    <main>
+        <section>
+            <h2>Contacto</h2>
+            <form action="" class="formulario">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                <label for="nombreApellido">Nombre y apellido</label>
+                <input type="text" id="nombreApellido" name="nombre-apellido" placeholder="Juan Fernandez" maxlength="30" required> 
+                <label for="numeroCelular">Celular</label>
+                <input type="number" id="numeroCelular" name="numeroCelular" placeholder="+54123456789" required>
+                <label for="">Correo electronico</label>
+                <input type="email" placeholder="tunombre@correoelectronico.com" required>
+            </fieldset>
+                <label for="">Comentarios</label>
+                <textarea name="Comentarios" id="" cols="26" rows="3" placeholder="Detalla tu pregunta" required></textarea>
+                <input type="submit" value="enviar formulario">
+                <label for="Servicios">Servicios</label>
+                <select name="Servicios" id="Servicios">
+                    <option value="Cotizacion">Cotizacion</option>
+                    <option value="Potenciacion">Potenciacion</option>
+                    <option value="Equipamiento">Equipamiento</option>
+                </select>
+            </form>
+        </section>
+        <section>
+            <h2>Ubicación</h2>
+            <section class="mapa">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25288.23958404552!2d-62.41426096809082!3d-37.601454185338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1666218114577!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </section>
+    </main>
+    <footer class="fondo">
+        <div class="redesContainer">
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank">
+                <img src="../img/facebook.png" alt="logo de facebook"></a></li>
+            <li><a href="https://www.intagram.com" target="_blank">
+                <img src="../img/instagram.png" alt="logo de instagram"></a></li>
+            <li><a href="https://twitter.com" target="_blank">
+                <img src="../img/twitter.png" alt="Logo de twitter"></a></li>
+            <li><a href="https://youtube.com" target="_blank">
+                <img src="../img/youtube.png" alt="logo de youtube"></a></li>
+        </ul>
+        </div>
+    </footer>
+    </body>
+</html>

@@ -227,6 +227,12 @@ form {
   height: auto;
 }
 
+.escuela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 320px) {
   .grid-index {
     font-size: smaller;

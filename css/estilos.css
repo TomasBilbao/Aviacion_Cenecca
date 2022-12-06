@@ -86,6 +86,8 @@ h3 {
   font-style: normal;
   background-color: grey;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
 
 p {
@@ -141,11 +143,7 @@ footer {
 }
 
 body {
-  background-image: url(https://compass-ssl.xbox.com/assets/58/4e/584ee388-5c7d-4512-b38c-5c8fbb4673d8.jpg?n=0000004_Gallery-0_1350x759_07.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 20em;
+  background-color: bisque;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -159,8 +157,8 @@ body {
 }
 
 form {
-  color: aliceblue;
-  border: 10px;
+  color: black;
+  border: 5px;
   border-style: double;
   border-color: black;
   box-sizing: border-box;
@@ -178,7 +176,6 @@ form {
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: center;
-  justify-items: end;
 }
 
 .grid2 {
@@ -199,7 +196,7 @@ form {
   justify-content: center;
   align-items: center;
   height: auto;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .grid-index {
@@ -209,6 +206,12 @@ form {
   grid-template-areas: initial;
   margin: 20px 20px 20px 20px;
   padding: 20px 20px 20px 20px;
+}
+
+.grid-escuela {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
 }
 
 .motorizacion {
@@ -223,8 +226,15 @@ form {
   border: none;
   display: flex;
   justify-content: center;
-  align-items: center;
   height: auto;
+  margin: 0;
+}
+
+.grid-contacto {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+  justify-content: space-between;
 }
 
 .escuela {

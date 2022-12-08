@@ -18,9 +18,9 @@ html{
 header{
     margin: 30px;
     display: flex;
-    justify-content: space-around;
-    background-color: grey;
-    color: aliceblue;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
     border-style: double;
     border-color: black;
     box-sizing: border-box;
@@ -35,10 +35,10 @@ ul li{
     box-sizing: border-box;
 }
 a{
-    color: aliceblue;
+    color: black;
     text-decoration: none;
     font-style: normal;
-    background-color: grey;
+    background-color: white;
     box-sizing: border-box;
 }
 
@@ -200,6 +200,7 @@ form{
     justify-content: center;
     height: auto;
     margin: 0;
+
     }
 .grid-contacto{
     display: grid;
@@ -227,26 +228,35 @@ form{
     }
     
 }
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .grid-index { 
         grid-template-columns: repeat(4,1fr);
     }
 }
-@media screen and (min-width: 1023px) {
+@media (min-width: 1023px) {
     .grid-index {
         grid-template-columns: repeat(4,1fr);
     }
 }
-@media screen and (min-width: 870px) {
+@media (min-width: 870px) {
     .grid-index { 
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
         margin: 3px;
     }
 }
-@media screen and (min-width: 320px) {
+@media (min-width: 320px) {
     .h1 {
         display: flex;
+        flex-direction: column;
         margin: 0;
     }
 }
+@media screen (min-width: 900px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+} 
+    

@@ -18,8 +18,8 @@ html{
 header{
     margin: 30px;
     display: flex;
-    justify-content: space-around;
-    background-color: grey;
+    justify-content: space-between;
+    background-color: white;
     color: aliceblue;
     border-style: double;
     border-color: black;
@@ -35,10 +35,10 @@ ul li{
     box-sizing: border-box;
 }
 a{
-    color: aliceblue;
+    color: black;
     text-decoration: none;
     font-style: normal;
-    background-color: grey;
+    background-color: none;
     box-sizing: border-box;
 }
 

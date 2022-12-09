@@ -20,7 +20,7 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: white;
-    color: black;
+    color: aliceblue;
     border-style: double;
     border-color: black;
     box-sizing: border-box;
@@ -38,7 +38,7 @@ a{
     color: black;
     text-decoration: none;
     font-style: normal;
-    background-color: white;
+    background-color: none;
     box-sizing: border-box;
 }
 
@@ -253,10 +253,3 @@ form{
         margin: 0;
     }
 }
-@media screen (min-width: 900px) {
-    .header {
-        display: flex;
-        flex-direction: column;
-    }
-} 
-    

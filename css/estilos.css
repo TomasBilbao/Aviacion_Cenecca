@@ -256,28 +256,26 @@ form {
     justify-content: space-around;
   }
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .grid-index {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-@media (min-width: 1023px) {
+@media screen and (min-width: 1023px) {
   .grid-index {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-@media (min-width: 870px) {
+@media screen and (min-width: 870px) {
   .grid-index {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     margin: 3px;
   }
 }
-@media (min-width: 320px) {
+@media screen and (min-width: 320px) {
   .h1 {
     display: flex;
-    flex-direction: column;
     margin: 0;
   }
 }/*# sourceMappingURL=estilos.css.map */

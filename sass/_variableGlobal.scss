@@ -1,0 +1,6 @@
+$color: grey;
+@mixin sizes ($widht, $height)
+{ 
+    height: $auto;
+    width: $70%;
+}

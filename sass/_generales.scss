@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 70;
+    box-sizing: border-box;
+}
+header{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+    color: aliceblue;
+    border-style: double;
+    border-color: black;
+    box-sizing: border-box;
+}
+footer{
+    padding: 10px;
+    border: 0ch none;
+    background-color: $color;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+}
+.redesContainer{
+    height: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color;
+    border: 10px;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}

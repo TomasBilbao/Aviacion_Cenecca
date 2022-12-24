@@ -94,11 +94,11 @@ form{
     justify-content: center;
     grid-area: auto;
 }
-.grid-contacto{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto;
+.contacto{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    
 }
 .escuela{
     display: flex;
